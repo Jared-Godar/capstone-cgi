@@ -31,6 +31,8 @@ This project provides an opportunity to feature many of the techniques we have l
 
 ## The Plan
 
+![Storyboard](storyboard.png)
+
 1. Acquire and clean the data
    1. For the MVP, I will manually create a `.csv` file with some concert information in order to build the pipeline.
    2. Once the pipeline is up and running, I will use Selenium and/or Beautiful Soup to scrape this data from venue websites in an automated way
