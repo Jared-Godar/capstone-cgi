@@ -2,7 +2,10 @@
 
 ## Build Partitions
 
-```sql
+- Athena BOTO3 client
+- 
+
+```python
 # Build Transformation partition
 v_queryString_transformation = "ALTER TABLE " + v_athena_transformation_table + " ADD IF NOT EXISTS PARTITION\
 (source_system_folder = '"+ source_system.lower() + "', table_name_folder = '"+ table_name.lower() + "', year_folder = " + v_timestamp_elements[0] + ", month_folder = " + v_timestamp_elements[1] + ", day_folder = " + v_timestamp_elements[2] + ")\
@@ -13,10 +16,10 @@ LOCATION 's3://" + v_s3_bucket + "/inbound/logs/transformation/" + source_system
 
 ```python
 try:
-athena_query(athena_clt, v_queryString_transformation)
+athena_query(athena_clt, v_queryString) # Dynamicaly building query string
 except Exception as e:
 v_process_step = 'Lambda Launch - Request to Athena Failure - Aborted'
-v_job_details = 'Unable to create Athena parition within Insert Log function: ' + v_process_step + ' for file: ' + file_name + ' - AWS Athena failure'
+v_job_details = 'Unable to create Athena partition within Insert Log function: ' + v_process_step + ' for file: ' + file_name + ' - AWS Athena failure'
 v_error = str(e)
 # Send failure notification
 v_subject = v_process_step
