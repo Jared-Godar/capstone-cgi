@@ -92,3 +92,4 @@ target/
 # Hydra logs
 outputs
 capstone_ece_keypair_478003.pem
+rootkey.csv
