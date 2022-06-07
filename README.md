@@ -4,6 +4,8 @@
 
 ## About this project
 
+[Trello Board](https://trello.com/invite/b/D1zOnnNU/83cf7c878e0aa6b525f4635f5af2bc47/capstone)
+
 This will serve as the foundation of a ten to fifteen minute pre-recorded presentation highlighting what I have learned in the last six weeks.
 
 ### Project goals
