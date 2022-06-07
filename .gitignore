@@ -93,3 +93,5 @@ target/
 outputs
 capstone_ece_keypair_478003.pem
 rootkey.csv
+godar_get_sts_win.bat
+capstone_ec2_keypair_jared_godar.pem
