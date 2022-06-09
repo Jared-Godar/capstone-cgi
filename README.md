@@ -6,6 +6,8 @@
 
 [Trello Board](https://trello.com/invite/b/D1zOnnNU/83cf7c878e0aa6b525f4635f5af2bc47/capstone)
 
+[QuickSight Dashboard](https://us-west-2.quicksight.aws.amazon.com/sn/accounts/030286465747/dashboards/8d4c47b4-2197-467c-b403-cb8314974ec8?directory_alias=godar-consulting)
+
 This will serve as the foundation of a ten to fifteen minute pre-recorded presentation highlighting what I have learned in the last six weeks.
 
 ### Project goals
