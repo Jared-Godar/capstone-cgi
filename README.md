@@ -97,6 +97,38 @@ This project provides an opportunity to feature many of the techniques we have l
 
 ---
 
+## Deliverables
+
+### Presentation
+
+- [x] **Introduction** (*~2 min*)
+  - [x] Introduce yourself
+  - [x] Current Skill Set
+  - [x] Past Experience
+- [ ]  **Lessons Learned** (*~5min*)
+  - [x]  AWS
+  - [x]  SQL
+  - [ ]  Databricks
+  - [ ]  PySpark
+  - [x]  Python
+  - [ ]  PowerBI
+  - [ ]  New / interesting things
+  - [x]  Strengths
+  - [x]  Weaknesses
+  - [ ]  Favorite technology and why
+  - [ ]  How have you used these technologies in the past
+- [x]  **Demo** (*~5min*)
+  - [x]  Tell a story
+  - [x]  Motivation for analysis
+  - [x]  Interesting Insights
+  - [x]  Challenges
+- [ ]  **Conclusion** (~1 min)
+  - [ ]  Wrap things up
+- [ ]  Upload `FNameLName_FinalPresentation`
+- [x]  Max 10 slides
+- [x]  CGI Branding
+- [ ]  Recorded Video
+--
 ## Steps to reproduce
 
 - [x] Read this README.md

@@ -10,6 +10,8 @@ dvc = "^2.10.0"
 hydra-core = "^1.1.1"
 pdoc3 = "^0.10.0"
 notebook = "^6.4.10"
+beautifulsoup4 = "^4.11.1"
+selenium = "^4.2.0"
 
 
 [tool.poetry.dev-dependencies]
